@@ -1,0 +1,30 @@
+@import "./font-awesome.min.css";
+@import "//at.alicdn.com/t/font_3374658_52hc6hp1qkh.css";
+@mainColor: #fe7f35;
+
+::-webkit-scrollbar{
+  display: none;
+}
+html {
+  font-size: calc(100vw / 37.5);
+}
+.bgImg(@size) {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: @size;
+}
+.bg-module {
+  position: relative;
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.max-center {
+  width: calc(100% - 3.75rem);
+  margin: 0 auto;
+}

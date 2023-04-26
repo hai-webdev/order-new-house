@@ -1,0 +1,55 @@
+@import "~@/assets/global.less";
+.house-container{
+  width: 34.3rem;
+  margin: 1rem auto;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  .title-module{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .title{
+      font-size: 1.6rem;
+      font-weight: bold;
+      color:#3a3c3e;
+    }
+    .more{
+      color:#999;
+      font-size: 1.2rem;
+    }
+  }
+  .house-wrapper{
+    margin-top: 1rem;
+    overflow-x: auto;
+    .house-list{
+      display: flex;
+      flex-wrap: nowrap;
+      .house-item{
+        flex-shrink: 0;
+        width: 13rem;
+        margin-right: 1rem;
+        .img{
+          width: 100%;
+          border-radius: .6rem;
+          overflow: hidden;
+        }
+        .text{
+          margin-top: .5rem;
+          .title{
+            font-size: 1.3rem;
+            color:#666;
+          }
+          .address{
+            font-size: 1.2rem;
+            color:#666;
+          }
+          .price{
+            color:@mainColor;
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}

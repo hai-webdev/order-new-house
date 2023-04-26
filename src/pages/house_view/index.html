@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <%= require("html-loader!../common/header-inner/index.html") %>
+    <section class="banner-container">
+      <div class="banner-swiper swiper-container">
+        <ul class="banner-list swiper-wrapper">
+          <li class="banner-item swiper-slide">
+            <img src="/public/images/house/banner1.png" alt="">
+          </li>
+          <li class="banner-item swiper-slide">
+            <img src="/public/images/house/banner1.png" alt="">
+          </li>
+        </ul>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="mask"></div>
+    </section>
+    <a href="" class="tel-container">
+      <i class="icon iconfont icon-dianhua"></i>
+      <div class="text">
+        <div class="tel">
+          400-123-4567
+          <span>转</span>
+          12345
+        </div>
+        <div class="info">安全通话隐藏真实号码，免费致电了解更多</div>
+      </div>
+    </a>
+    <section class="main-container max-center">
+      <div class="title-module">
+        <span class="title">绿地·太湖朗峯</span>
+        <button class="show-toast wechat">
+          <i class="icon iconfont icon-weixin"></i>
+          <span>购房讨论群</span>
+        </button>
+      </div>
+      <div class="desc">
+        别名/备案名：太湖朗润花园、绿地太湖朗峯、绿地太湖朗峯商业街(建设中)、绿地·太湖朗峯营销中心
+      </div>
+      <ul class="info-list">
+        <li class="info-item">
+          <p>均价</p>
+          <div class="num">23000元/平</div>
+        </li>
+        <li class="info-item">
+          <p>总价</p>
+          <div class="num">258-338万/套</div>
+        </li>
+        <li class="info-item">
+          <p>建面</p>
+          <div class="num">112-147㎡</div>
+        </li>
+      </ul>
+      <div class="note">
+        提示：以上数据更新于2022/05/04，最新报价以开发商为准
+      </div>
+    </section>
+    <section class="btn-container max-center">
+      <ul class="btn-list">
+        <li class="btn-item">
+          <a class="show-toast yusuan">
+            <i class="icon iconfont icon-yusuanbaobiao"></i>
+            <span>预约算价</span>
+          </a>
+        </li>
+        <li class="btn-item">
+          <a class="show-toast price-notice">
+            <i class="icon iconfont icon-tixing"></i>
+            <span>变价提醒</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="menu-bar-container">
+      <nav class="menu-bar-list">
+        <a href="/" class="menu-bar-item">首页</a>
+        <a href="#basic-info" class="menu-bar-item on">基础信息</a>
+        <a href="#house-type" class="menu-bar-item">户型信息</a>
+        <a href="#community" class="menu-bar-item">小区信息</a>
+        <a href="#dynamic" class="menu-bar-item">楼盘动态</a>
+        <a href="#filing" class="menu-bar-item">备案价</a>
+        <a href="" class="menu-bar-item">楼盘问答</a>
+        <a href="" class="menu-bar-item">楼盘推荐</a>
+      </nav>
+    </section>
+    <section class="basic-info-container module max-center" id="basic-info">
+      <div class="title-module">
+        <div class="title">基础信息</div>
+        <a href="" class="more">
+          查看更多
+          <i class="icon iconfont icon-next-m"></i>
+        </a>
+      </div>
+      <div class="content content-module">
+        <ul class="info-list">
+          <li class="info-item">
+            <div class="td">类型：住宅</div>
+            <div class="td text">面积：112-147㎡</div>
+          </li>
+          <li class="info-item">
+            <div class="td">户型：3室/4室</div>
+            <div class="td">
+              <a href="">【发送户型到手机】</a>
+            </div>
+          </li>
+          <li class="info-item">
+            <div class="td">开盘：2019-12-04</div>
+            <div class="td">【日期更新通知我】</div>
+          </li>
+          <li class="info-item">
+            <div class="td">预售证号：暂无</div>
+            <div class="td">【获取预售信息】</div>
+          </li>
+          <li class="info-item">
+            <div class="td">地址：北太湖湾观景平台东侧(花港地铁站2号东南口旁)</div>
+            <div class="td">【发送位置到手机】</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="house-type-container module max-center" id="house-type">
+      <div class="title-module">
+        <div class="title">户型介绍(12)<a>【发送户型到手机】</a></div>
+        <a href="" class="more">
+          更多户型
+          <i class="icon iconfont icon-next-m"></i>
+        </a>
+      </div>
+      <div class="content content-module">
+        <ul class="house-type-list">
+          <li class="house-type-item">
+            <div class="img">
+              <img src="/public/images/house/house-type-01.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="price">
+                <span>总价约</span>
+                <div class="num">258<span>万/套</span>
+                </div>
+              </div>
+              <div class="house-type">
+                3室2厅2卫
+                <span class="status">在售</span>
+              </div>
+              <div class="area">
+                112㎡ - 朝南北
+              </div>
+              <button>余房查询</button>
+            </div>
+          </li>
+          <li class="house-type-item">
+            <div class="img">
+              <img src="/public/images/house/house-type-01.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="price">
+                <span>总价约</span>
+                <div class="num">258<span>万/套</span>
+                </div>
+              </div>
+              <div class="house-type">
+                3室2厅2卫
+                <span class="status">在售</span>
+              </div>
+              <div class="area">
+                112㎡ - 朝南北
+              </div>
+              <button>余房查询</button>
+            </div>
+          </li>
+          <li class="house-type-item">
+            <div class="img">
+              <img src="/public/images/house/house-type-01.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="price">
+                <span>总价约</span>
+                <div class="num">258<span>万/套</span>
+                </div>
+              </div>
+              <div class="house-type">
+                3室2厅2卫
+                <span class="status">在售</span>
+              </div>
+              <div class="area">
+                112㎡ - 朝南北
+              </div>
+              <button>余房查询</button>
+            </div>
+          </li>
+          <li class="house-type-item">
+            <div class="img">
+              <img src="/public/images/house/house-type-01.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="price">
+                <span>总价约</span>
+                <div class="num">258<span>万/套</span>
+                </div>
+              </div>
+              <div class="house-type">
+                3室2厅2卫
+                <span class="status">在售</span>
+              </div>
+              <div class="area">
+                112㎡ - 朝南北
+              </div>
+              <button>余房查询</button>
+            </div>
+          </li>
+          <li class="house-type-item">
+            <div class="img">
+              <img src="/public/images/house/house-type-01.jpg" alt="">
+            </div>
+            <div class="text">
+              <div class="price">
+                <span>总价约</span>
+                <div class="num">258<span>万/套</span>
+                </div>
+              </div>
+              <div class="house-type">
+                3室2厅2卫
+                <span class="status">在售</span>
+              </div>
+              <div class="area">
+                112㎡ - 朝南北
+              </div>
+              <button>余房查询</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="community-container module max-center" id="community">
+      <div class="title-module">
+        <div class="title">小区信息<a>【发送户型到手机】</a></div>
+      </div>
+      <div class="content content-module">
+        <div class="community-title">
+          <div class="title">绿地·太湖朗峯</div>
+          <div class="price">小区均价：暂无小区均价</div>
+        </div>
+        <ul class="community-list">
+          <li class="community-item">
+            <div class="key">物业类型：</div>
+            <div class="val">住宅</div>
+          </li>
+          <li class="community-item">
+            <div class="key">建筑年代：</div>
+            <div class="val">2020年</div>
+          </li>
+          <li class="community-item">
+            <div class="key">外墙类型：</div>
+            <div class="val">真石漆</div>
+          </li>
+          <li class="community-item">
+            <div class="key">整体装修：</div>
+            <div class="val">暂无</div>
+          </li>
+          <li class="community-item">
+            <div class="key">建筑结构：</div>
+            <div class="val">框架</div>
+          </li>
+          <li class="community-item">
+            <div class="key">占地面积：</div>
+            <div class="val">117998㎡</div>
+          </li>
+          <li class="community-item">
+            <div class="key">建筑面积：</div>
+            <div class="val">5352㎡</div>
+          </li>
+          <li class="community-item">
+            <div class="key">绿化率：</div>
+            <div class="val">53%</div>
+          </li>
+          <li class="community-item">
+            <div class="key">容积率：</div>
+            <div class="val">1.8</div>
+          </li>
+          <li class="community-item w100">
+            <div class="key">开发商：</div>
+            <div class="val">苏州绿港置业有限公司</div>
+          </li>
+          <li class="community-item w100">
+            <div class="key">预售证号：</div>
+            <div class="val">苏房预吴江〔2020〕059号
+              <a>【获取预售信息】</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="dynamic-container module max-center" id="dynamic">
+      <div class="title-module">
+        <div class="title">楼盘动态<a>【动态更新提醒我】</a></div>
+        <a href="" class="more">
+          查看更多
+          <i class="icon iconfont icon-next-m"></i>
+        </a>
+      </div>
+      <div class="content content-module">
+        <ul class="dynamic-list">
+          <li class="dynamic-item">
+            <i class="icon"></i>
+            <div class="text">
+              <div class="date">2022-04-25 16:23:49</div>
+              <div class="title">绿地太湖朗峯2023-09-30</div>
+              <div class="cont">
+                <p>绿地太湖朗峯22500元/平方米。主力户型为112平-147平3居-4居。绿地太湖朗峯项目为小高层,高层。物业费：2.7元/㎡·月。绿化率53%。</p>
+                <p>
+                  绿地太湖朗峯共1010户。2023-09-30。带装修交付。11栋18-27层。敬请关注。
+                </p>
+                <p>
+                  <img src="/public/images/house/dynamic.jpg" alt="">
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="dynamic-item">
+            <i class="icon"></i>
+            <div class="text">
+              <div class="date">2022-04-25 16:23:49</div>
+              <div class="title">绿地太湖朗峯2023-09-30</div>
+              <div class="cont">
+                <p>绿地太湖朗峯22500元/平方米。主力户型为112平-147平3居-4居。绿地太湖朗峯项目为小高层,高层。物业费：2.7元/㎡·月。绿化率53%。</p>
+                <p>
+                  绿地太湖朗峯共1010户。2023-09-30。带装修交付。11栋18-27层。敬请关注。
+                </p>
+                <p>
+                  <img src="/public/images/house/dynamic.jpg" alt="">
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="dynamic-item">
+            <i class="icon"></i>
+            <div class="text">
+              <div class="date">2022-04-25 16:23:49</div>
+              <div class="title">绿地太湖朗峯2023-09-30</div>
+              <div class="cont">
+                <p>绿地太湖朗峯22500元/平方米。主力户型为112平-147平3居-4居。绿地太湖朗峯项目为小高层,高层。物业费：2.7元/㎡·月。绿化率53%。</p>
+                <p>
+                  绿地太湖朗峯共1010户。2023-09-30。带装修交付。11栋18-27层。敬请关注。
+                </p>
+                <p>
+                  <img src="/public/images/house/dynamic.jpg" alt="">
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="filing-container module" id="filing">
+      <div class="title-module">
+        <div class="title">备案价查询</div>
+      </div>
+      <div class="content content-module">
+        <table class="filing-table">
+          <thead class="filing-wrapper">
+            <tr class="filing-list">
+              <th class="filing-item th">房屋坐落</th>
+              <th class="filing-item th">类型</th>
+              <th class="filing-item th">户型</th>
+              <th class="filing-item th">面积</th>
+              <th class="filing-item th">均价</th>
+            </tr>
+          </thead>
+          <tbody class="filing-wrapper">
+            <tr class="filing-list">
+              <td class="filing-item">10幢1001</td>
+              <td class="filing-item">住宅</td>
+              <td class="filing-item">3室2厅2卫</td>
+              <td class="filing-item">134.33</td>
+              <td class="filing-item">21009.22</td>
+            </tr>
+            <tr class="filing-list">
+              <td class="filing-item">10幢1001</td>
+              <td class="filing-item">住宅</td>
+              <td class="filing-item">3室2厅2卫</td>
+              <td class="filing-item">134.33</td>
+              <td class="filing-item">21009.22</td>
+            </tr>
+            <tr class="filing-list">
+              <td class="filing-item">10幢1001</td>
+              <td class="filing-item">住宅</td>
+              <td class="filing-item">3室2厅2卫</td>
+              <td class="filing-item">134.33</td>
+              <td class="filing-item">21009.22</td>
+            </tr>
+            <tr class="filing-list">
+              <td class="filing-item">10幢1001</td>
+              <td class="filing-item">住宅</td>
+              <td class="filing-item">3室2厅2卫</td>
+              <td class="filing-item">134.33</td>
+              <td class="filing-item">21009.22</td>
+            </tr>
+            <tr class="filing-list">
+              <td class="filing-item">10幢1001</td>
+              <td class="filing-item">住宅</td>
+              <td class="filing-item">3室2厅2卫</td>
+              <td class="filing-item">134.33</td>
+              <td class="filing-item">21009.22</td>
+            </tr>
+            <tr class="filing-list">
+              <td class="filing-item">10幢1001</td>
+              <td class="filing-item">住宅</td>
+              <td class="filing-item">3室2厅2卫</td>
+              <td class="filing-item">134.33</td>
+              <td class="filing-item">21009.22</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <%= require("html-loader!../common/house-other/index.html") %>
+      <section class="disclaimer-container max-center">
+        免责声明：楼盘信息来源于政府公示网站，开发商，第三方公众平台，最终以政府部门登记备案为准，请谨慎核查。如楼盘信息有误或其他疑义，您可拨打电话投诉：400-612-8017
+      </section>
+      <%= require("html-loader!../common/footer/index.html") %>
+        <section class="foot-contact-container">
+          <a href="" class="tel">
+            <i class="icon iconfont icon-tel"></i>
+            <b>400-612-8017</b>
+            <span>联系售楼处</span>
+          </a>
+          <a href="" class="reserve">
+            <i class="icon iconfont icon-time_fill"></i>
+            预约看房
+          </a>
+        </section>
+        <a href="" class="call-container">
+          <img src="/public/images/house/call.png" alt="">
+        </a>
+        <section class="popup-container" id="popup">
+          <div class="car-container">
+            <i class="iconfont icon-guanbi close"></i>
+            <div class="main-cont">
+              <div class="title">专车看房</div>
+              <div class="desc">专属管家，一对一为您服务</div>
+              <div class="info">绿地·太湖朗峯已有123人看过</div>
+              <form action="" class="form">
+                <label for="" class="inp">
+                  <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                  <input type="text" placeholder="请输入您的手机号">
+                </label>
+                <button type="submit" class="submit">立即预约</button>
+              </form>
+            </div>
+          </div>
+          <div class="wechat-container">
+            <i class="iconfont icon-guanbi close"></i>
+            <div class="main-cont">
+              <div class="title-module">
+                <div class="img">
+                  <img src="/public/images/house/wechat_ico.png" alt="">
+                </div>
+                <div class="text">
+                  <div class="title">微信买房交流群</div>
+                  <div class="desc">已有162人加入群聊</div>
+                </div>
+              </div>
+              <div class="info">填写手机号加入群聊哦~</div>
+              <form action="" class="form">
+                <label for="" class="inp">
+                  <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                  <input type="text" placeholder="请填写手机号">
+                </label>
+                <button type="submit" class="submit">申请加入群聊</button>
+              </form>
+            </div>
+          </div>
+          <div class="yusuan-container">
+            <i class="iconfont icon-guanbi close"></i>
+            <div class="main-cont">
+              <div class="title">预约算价</div>
+              <div class="head">
+                <div class="img">
+                  <img src="/public/images/house/house-ico.jpg" alt="">
+                </div>
+                <div class="text">
+                  <div class="title">紫云心语</div>
+                  <div class="area">面积：暂无</div>
+                  <div class="info">总价：258-338万</div>
+                </div>
+              </div>
+              <div class="tel-box">
+                <div class="left-layout">
+                  <p>售楼处电话</p>
+                  <div class="tel">
+                    <a href="">400-612-8017</a>
+                    <span>转</span>
+                    <a>36559</a>
+                  </div>
+                </div>
+                <div class="right-layout">
+                  <a href="" class="tel">
+                    <img src="/public/images/house/icon-tel.png" alt="">
+                  </a>
+                </div>
+              </div>
+              <div class="desc">
+                为确保专属管家能够成功联系您，请确认电话号码无误，专属管家会给您电话，帮您计算价格。
+              </div>
+              <form action="" class="form">
+                <label for="" class="inp">
+                  <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                  <input type="text" placeholder="请填写手机号">
+                </label>
+                <button type="submit" class="submit">立即预约</button>
+              </form>
+            </div>
+          </div>
+          <div class="price-notice-container">
+            <i class="iconfont icon-guanbi close"></i>
+            <div class="main-cont">
+              <div class="title">变价通知</div>
+              <form action="" class="form">
+                <div class="info">132****2971在1分钟前订阅</div>
+                <label for="" class="inp">
+                  <i class="fa fa-mobile icon" aria-hidden="true"></i>
+                  <input type="text" placeholder="请填写手机号">
+                </label>
+                <button type="submit" class="submit">立即订阅</button>
+              </form>
+            </div>
+          </div>
+
+
+
+
+          <div class="mask"></div>
+        </section>
+
+
+
+
+</body>
+
+</html>
